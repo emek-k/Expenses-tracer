@@ -1,0 +1,206 @@
+.card {
+    background-color: #bebebe;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05)
+}
+
+.cards-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.icons {
+    width: 70px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.background-my{
+    background-color: #D4D2D5;
+}
+
+.background-chart {
+    background-color: white;
+}
+.dashboard-card {
+    background-color: #D4D2D5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.my-card {
+    background-color: #BFAFA6;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.my-icons {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.my-card-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.my-text {
+    margin-top: 40px;
+}
+
+.main-page-dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.dashboard-card__main-section {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.chart-container {
+    width: 690px;
+    height: 600px;
+}
+
+.chart-container2 {
+    width: 570px;
+    height: 600px;
+}
+
+.navbar-nav__profile-button {
+    margin-right:20px;
+}
+
+
+/*Profile*/
+.profile__component {
+    border-radius: 5px;
+    background-color: #D4D2D5;
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile__component__grid {
+    display: grid;
+    grid-template-columns: 15ch 15ch;
+    grid-gap: 15px;
+    padding: 30px;
+
+    & > table,tbody,tr { display: contents;}
+}
+
+label {
+    font-weight: bold;
+}
+
+.notification-modal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.notification-block-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.notification-block {
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.button-container {
+    flex: 0 0 auto;
+    margin-left: 10px;
+}
+
+.bold-label {
+    font-weight: bold;
+}
+
+.red-bold {
+    color: red;
+    font-weight: bold;
+}
+
+.wallet {
+    background-color: #ffc107; 
+    padding: 3px 6px; 
+    border-radius: 5px; 
+}
+
+.navbar-profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.navbar-profile-img-placeholder {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.Toastify__toast-body{
+    white-space: pre-line;
+}
+
+.bg-income {
+    background-color: #B2CCB5;
+}
+
+.bg-expenditure {
+    background-color: #CCB2B2;
+}

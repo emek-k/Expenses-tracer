@@ -1,0 +1,170 @@
+﻿/* Style dla zakładek */
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Styl aktywnej i nieaktywnej zakładki */
+.active-tab,
+.inactive-tab {
+    padding: 15px 150px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 0 5px;
+}
+
+.active-tab {
+    background-color: #AA968A;
+    color: white;
+}
+
+.inactive-tab {
+    background-color: white;
+    color: #555555;
+}
+
+/* Linia oddzielająca zakładki */
+.tab-divider {
+    width: 1px;
+    background-color: #6C698D;
+    margin: 0 20px;
+}
+
+.divider {
+    color: #AA968A;
+    border-bottom: 2px solid #AA968A;
+}
+
+/* Przyciski */
+.btn-primary {
+    background-color: #6C698D;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #BFAFA6;
+    border: none;
+}
+
+.btn-tertiary {
+    background-color: #D4D2D5;
+    border: none;
+}
+.btn-grey {
+    background-color: #6E6A6F;
+    border: none;
+}
+.btn-white {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+/* Style dla stanu :hover */
+.btn-white:hover {
+    background-color: #FFFFFF;
+}
+
+.btn-grey:hover {
+    background-color: #6E6A6F;
+}
+
+.btn-primary:hover {
+    background-color: #5f5c7e;
+}
+
+.btn-secondary:hover {
+    background-color: #d2b481;
+}
+
+.btn-tertiary:hover {
+    background-color: #bab8ba;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Selecty */
+.select-container {
+    border: 1px solid #AA968A;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-section {
+    border: 1px solid #AA968A;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+    .summary-section > div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+        .summary-section > div > div:first-child {
+            flex: 1;
+        }
+
+        .summary-section > div > div:last-child {
+            flex: 1;
+            text-align: right;
+        }
+
+/* Kontener dla danych */
+.data-container,
+.data-container1{
+    border: 1px solid #AA968A;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Lista transakcji */
+.transaction-list {
+    border: 1px solid #6C698D;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.data-container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sekcja danych o kolorach */
+.color-data-section {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width: 100%;
+}
+
+    .color-data-section > div {
+        width: calc(50% - 5px);
+        border: 1px solid #6C698D;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+        .color-data-section > div:first-child {
+            margin-right: 10px;
+        }
+
+        .color-data-section > div:last-child {
+            margin-left: 10px;
+        }
+
+
