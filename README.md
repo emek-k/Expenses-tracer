@@ -1,8 +1,22 @@
 # PROJEK ZESPOŁOWY
-Celem projektu zespołowego było stworzenie aplikacji do zarządzania budżetem domowym za pomocą tworzenia walletów. Każdy wallet posiada wykaz swoich transakcji, z wydatkami, przychodami wraz z podziałem na odpowiendie kategorie.
+Celem projektu zespołowego było stworzenie aplikacji do zarządzania budżetem domowym za pomocą tworzenia walletów. Każdy wallet posiada wykaz swoich transakcji, z wydatkami, przychodami wraz z podziałem na odpowiendie kategorie. Tworzenie zobowiązań, takich jak rata kredytu czy leasing, które przypominają użytkownikowi o ich uregulowaniu odpowiednimi komunikatami pozwala użytkownikowi na terminowej ich spłacie. Na podobnej zasadzie działają również budżety, które monitorują czy określony limit wydatków w danej kategorii nie został przekroczony, a w przeciwnym przypadku wysyłają odpowiednie powiadomienia. Aplikacja pozwala również na przenoszenie portfeli między kontami za pomocą funkcji imporu i eksportu. Graficzne podsumowania pozwalają użytkownikowi w łatwy sposób zrozumieć swoje wydatki, a skaner OCR paragonów umożliwia łatwe wprowadzanie danych z paragonów. O bezpieczeństwo naszej aplikacji dba re-capta oraz możliwość włączenia weryfikacji 2FA za pomocą kluczy. 
+
 * Realizowany na przestrzeniu 8 miesięcy
 * Zespół liczył 8 osób
 * Każdy był odpowiedzialny za oddzielne funkcje, które razem stworzyły rozbudowaną aplikację do zarządzania budżetem domowym.
+
+# STACK TECHNOLOGICZNY
+### FRONTEND
+* REACT
+* VITE 
+* BOOTSTRAP
+* GOOGLE RECAPTCHA
+
+### BACKEND
+* ASP.NET CORE
+* ENTITY FRAMEWORK CORE 
+* MICROSOFT IDENTITY
+* POSTGRES
 
 ## MOJA CZĘŚĆ
 * Import walletu 
