@@ -1,34 +1,61 @@
-# EXPENSES TRACER - PROJEK ZESPOŁOWY
-Celem projektu zespołowego było stworzenie aplikacji do zarządzania budżetem domowym za pomocą tworzenia walletów. Każdy wallet posiada wykaz swoich transakcji, z wydatkami, przychodami wraz z podziałem na odpowiendie kategorie. Tworzenie zobowiązań, takich jak rata kredytu czy leasing, które przypominają użytkownikowi o ich uregulowaniu odpowiednimi komunikatami pozwala użytkownikowi na terminowej ich spłacie. Na podobnej zasadzie działają również budżety, które monitorują czy określony limit wydatków w danej kategorii nie został przekroczony, a w przeciwnym przypadku wysyłają odpowiednie powiadomienia. Aplikacja pozwala również na przenoszenie portfeli między kontami za pomocą funkcji imporu i eksportu. Graficzne podsumowania pozwalają użytkownikowi w łatwy sposób zrozumieć swoje wydatki, a skaner OCR paragonów umożliwia łatwe wprowadzanie danych z paragonów. O bezpieczeństwo naszej aplikacji dba re-capta oraz możliwość włączenia weryfikacji 2FA za pomocą kluczy. 
-
-* Realizowany na przestrzeniu 8 miesięcy
-* Zespół liczył 8 osób
-* Każdy był odpowiedzialny za oddzielne funkcje, które razem stworzyły rozbudowaną aplikację do zarządzania budżetem domowym.
-
-# STACK TECHNOLOGICZNY
-### FRONTEND
-* REACT
-* VITE 
-* BOOTSTRAP
-* GOOGLE RECAPTCHA
-
-### BACKEND
-* ASP.NET CORE
-* ENTITY FRAMEWORK CORE 
-* MICROSOFT IDENTITY
-* POSTGRES
-
-## MOJA CZĘŚĆ
-* Import walletu 
-* Eksport walletu
-* Tworzenie, zarządzanie, usuwanie budżetów
-
-DEMO - https://youtu.be/52VKj6gjY20
-
-<a href="https://youtu.be/52VKj6gjY20" target="_blank">
-  <img width="500" alt="Screenshot 2024-06-16 at 23 44 40" src="https://github.com/emek-k/Team-Project-PB/assets/48961771/6d32d8ca-dc14-46f4-be4c-3983ef413b16">
-</a>
-
+<table border="0">
+  <tr>
+    <td colspan="6">
+        <h1>EXPENSES TRACER - PROJEK ZESPOŁOWY</h1>
+      <p>Celem projektu zespołowego było stworzenie aplikacji do zarządzania budżetem domowym za pomocą tworzenia walletów. Każdy wallet posiada wykaz swoich transakcji, z wydatkami, przychodami wraz z podziałem na odpowiendie kategorie. Tworzenie zobowiązań, takich jak rata kredytu czy leasing, które przypominają użytkownikowi o ich uregulowaniu odpowiednimi komunikatami pozwala użytkownikowi na terminowej ich spłacie. Na podobnej zasadzie działają również budżety, które monitorują czy określony limit wydatków w danej kategorii nie został przekroczony, a w przeciwnym przypadku wysyłają odpowiednie powiadomienia. Aplikacja pozwala również na przenoszenie portfeli między kontami za pomocą funkcji imporu i eksportu. Graficzne podsumowania pozwalają użytkownikowi w łatwy sposób zrozumieć swoje wydatki, a skaner OCR paragonów umożliwia łatwe wprowadzanie danych z paragonów. O bezpieczeństwo naszej aplikacji dba re-capta oraz możliwość włączenia weryfikacji 2FA za pomocą kluczy.</p>
+      <ul>
+        <li>Realizowany na przestrzeniu 8 miesięcy.</li>
+        <li>Zespół liczył 8 osób.</li>
+        <li>Każdy był odpowiedzialny za oddzielne funkcje, które razem stworzyły rozbudowaną aplikację do zarządzania budżetem domowym.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+        <h4>Frontend</h4>
+    </td>
+    <td colspan="3">
+        <h4>Backend</h4>
+    </td>
+  </tr>
+   <tr>
+    <td colspan="3">
+        <ul>
+          <li>React</li>
+          <li>Vite</li>
+          <li>Bootstrap</li>
+          <li>Google Recaptcha</li>
+        </ul>
+    </td>
+    <td colspan="3">
+        <ul>
+          <li>Asp.net Core</li>
+          <li>Entity Framework Core</li>
+          <li>Microsoft Identity</li>
+          <li>Postgres SQL</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h2>MOJA CZĘŚĆ</h2>
+      <ul>
+        <li>Import walletu</li>
+        <li>Eksport walletu</li>
+        <li>Tworzenie, zarządzanie, usuwanie budżetów
+</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center">
+      <h2>Prezentacja aplikacji</h2>
+      <a href="https://youtu.be/52VKj6gjY20" target="_blank">
+        <img width="500" src="https://github.com/emek-k/Team-Project-PB/assets/48961771/6d32d8ca-dc14-46f4-be4c-3983ef413b16">
+      </a>
+      <p>DEMO - https://youtu.be/52VKj6gjY20</p>
+    </td>
+</table>
 <table border="0">
   <tr>
     <td colspan="6" align="left">
