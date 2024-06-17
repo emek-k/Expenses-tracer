@@ -23,6 +23,11 @@ Celem projektu zespołowego było stworzenie aplikacji do zarządzania budżetem
 * Eksport walletu
 * Tworzenie, zarządzanie, usuwanie budżetów
 
+DEMO - https://youtu.be/52VKj6gjY20
+<a href="https://youtu.be/52VKj6gjY20" target="_blank">
+  <img width="500" alt="Screenshot 2024-06-16 at 23 44 40" src="https://github.com/emek-k/Team-Project-PB/assets/48961771/6d32d8ca-dc14-46f4-be4c-3983ef413b16">
+</a>
+
 # PREZENTACJA MOJEJ FUNKCJONALNOŚCI 
 <img width="1252" alt="image" src="https://github.com/emek-k/Team-Project-PB/assets/48961771/60c28261-4ac9-4cdc-9553-c1d0097e7d78">
 <img width="1253" alt="image" src="https://github.com/emek-k/Team-Project-PB/assets/48961771/682fe6bc-ffb5-4273-a2d1-05ea98c84ef6">
