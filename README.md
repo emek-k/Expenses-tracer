@@ -37,7 +37,7 @@
     </td>
   </tr>
   <tr>
-    <td>
+    <td colspan="6">
       <h2>MOJA CZĘŚĆ</h2>
       <ul>
         <li>Import walletu</li>
